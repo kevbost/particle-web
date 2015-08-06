@@ -1,8 +1,5 @@
 console.log('\'Allo \'Allo!');
 
-var d = "54ff6e066667515131441367";
-var t = "8f6d3f859d1055bbf552ecf8cae7cdf4ea48d70a";
-
 var deviceIdFinal,
     tokenFinal,
 
@@ -66,7 +63,7 @@ $(function(){
     $('.update').click(_updateUrl);
 
     init();
-    deviceId.val(d);
-    token.val(t);
+    // deviceId.val(d);
+    // token.val(t);
 });
 
