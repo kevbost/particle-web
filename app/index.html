@@ -72,7 +72,7 @@
                         Controller options for connected Particle
                     </div>
                     <div class="panel-body">
-                        <p class="path">https://api.particle.io/v1/devices/your-device-ID-goes-here/led?access_token=your-access-token-goes-here</p>
+                        <p class="path">https://api.particle.io/v1/&#8203;devices/&#8203;your-device-ID-goes-here/&#8203;led?&#8203;access_token=&#8203;your-access-token-goes-here</p>
                         <form name="particle_form" id="particleForm" action="" method="POST" target="_blank">
                             <p>Tell your device what to do!</p>
 
@@ -107,6 +107,20 @@
                                 <label>
                                     <input type="radio" name="args" value="classic">
                                     Classic Man
+                                </label>
+                            </div>
+
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="args" value="freqTest">
+                                    Frequency Test 5k steps, 10k-40k
+                                </label>
+                            </div>
+
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="args" value="fast">
+                                    Fast Notes
                                 </label>
                             </div>
 

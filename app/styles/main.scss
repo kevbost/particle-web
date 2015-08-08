@@ -75,6 +75,7 @@ body {
 .validation {
     font-weight: bold;
     color: red;
+    word-wrap: break-word;
 
     &.validated {
         color: green;

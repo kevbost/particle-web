@@ -66,4 +66,3 @@ $(function(){
     // deviceId.val(d);
     // token.val(t);
 });
-
