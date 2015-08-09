@@ -1,6 +1,5 @@
 #Particle Core Piezo Buzzer Fun
 
----
 
 This is a really simple project that interacts with a network connected [Particle][5] and uses the [Particle Cloud API][7] to send commands.
 I have the original [Spark Core][4], but the music code in this was written for the Arduino.  So whatever. 
@@ -19,7 +18,6 @@ Have your Particle "Device ID" and "Device Access Token" handy.
 	if(deviceId.val().length === 24) {}
 	if(token.val().length === 40) {}
 	
----
 ##Instructions
 This is basically an updated and extended version of the informative [tutorial on the particle docs][3] for completing the classic hello world over the 'net.
 
